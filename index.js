@@ -3,11 +3,14 @@ export default clas formValidation {
 
   constructor() {...}
 
-  static getActionCfg(modal) {...}
+  bindEvents() {...}
 
-  static getParams(handler) {...}
+  handleKeyDown(e) {...}
 
-  static handleModalConfirm(instance, event) {...}
+  handleSubmit(e) {...}
 
-  static handleModalCancel(instance, event) {...}
+  handleInputBlur(e) {...}
+
+  /** Валидация формы ...*/
+  static validateForm(form, inputs, isInclude)  
 }
